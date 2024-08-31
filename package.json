@@ -1,0 +1,21 @@
+{
+  "name": "playwright_pom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test -g@regression --project=firefox",
+    "api": "npx playwright test -g@apitest --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "exceljs": "^4.4.0"
+  }
+}
