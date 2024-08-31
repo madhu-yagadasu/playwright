@@ -9,6 +9,8 @@ const dataset = JSON.parse(JSON.stringify(require("../../utils/PlaceOrderTestDat
 
 test('ecommerce_e2e', { tag: '@regression' }, async ({ browser }) => {
 
+    /* end to end test case for e commerce website*/
+
     const Context = await browser.newContext()
     const page = await Context.newPage()
 
