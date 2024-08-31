@@ -3,7 +3,7 @@ import { LoginPage } from '../../pages/loginPage'
 import { ProductsPage } from '../../pages/productPage'
 
 
-customtest.only('Login and add product', async ({ browser, testDataForOrder }) => {
+customtest('Login and add product', async ({ browser, testDataForOrder }) => {
 
     const Context = await browser.newContext()
     const page = await Context.newPage()
