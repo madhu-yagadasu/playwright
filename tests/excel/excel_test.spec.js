@@ -19,6 +19,9 @@ async function excel() {
 
 
 test('update_excel', async ({ page }) => {
+//please uncomment this run with your local file path
+
+    /*
 
     await page.goto('https://rahulshettyacademy.com/upload-download-test/index.html')
 
@@ -32,5 +35,6 @@ test('update_excel', async ({ page }) => {
     await page.locator("#fileinput").setInputFiles("C:/Users/yagad/Downloads/download.xlsx")
     await page.waitForTimeout(2000)
 
+    */
 
 })
